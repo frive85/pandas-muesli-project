@@ -1,12 +1,12 @@
 # Project - Data Analysis
 
 This project is centered around exploratory data 
-analysis [(EDA)](Terezas_EDA_Checklist.pdf) techniques and statistical analysis.
+analysis [(EDA)](./Terezas_EDA_Checklist.pdf) techniques and statistical analysis.
 
 ## Topic and Task
 
 Your task will be to complete a case study to answer specific questions of our stakeholder by performing data analysis and visualisation. 
-You can find the detailed task description [here](Assignment.md).
+You can find the detailed task description [here](./Assignment.md).
 
 ## Getting Started
 
