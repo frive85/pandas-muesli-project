@@ -1,57 +1,79 @@
-# Project - Data Analysis
+# 📊 Muesli Project – Data Analysis
 
-This project is centered around exploratory data 
-analysis [(EDA)](./EDA_Checklist.pdf) techniques and statistical analysis.
+This project focuses on **Exploratory Data Analysis (EDA)** and **statistical analysis** to uncover insights from logistics and warehouse operations data. The goal is to support decision-making by answering key business questions, identifying performance bottlenecks, and driving improvements in delivery efficiency.
 
-## Topic and Task
+---
 
-Your task will be to complete a case study to answer specific questions of our stakeholder by performing data analysis and visualisation. 
-You can find the detailed task description [here](./Assignment.md).
+## 🎯 Project Objective
 
-## Suggested workflow - MVP  
+Analyze operational data to evaluate **logistics and warehouse performance**, focusing on:
+- Delivery timelines
+- Pickup delays
+- Overall efficiency
+- Customer satisfaction
 
-The work is timeboxed, and with that in mind, you need to change how you approach the task. You will want to employ an iterative approach. 
+The insights aim to **optimize operations**, **improve customer experience**, and **support strategic improvements**.
 
-* Write a plan of how you will complete the project. Refer to this regularly.
-* When unsure or facing overly complex topics: make assumptions or simplifications that allow you to move on with your plan.
-* Make simple plots
-* Main questions should be answered first -> Think MVP (minimum viable product) and POC (proof of concept) 
-* Iterate: go deeper, go prettier, go better
-* Clean up .. feel free to delete things that are not useful anymore (even if you spent loads of time on it!)
+> *“Faster deliveries = happier customers”*  
+> — Key takeaway from the analysis
 
-## Suggested workflow for git
+---
 
-* one person forks this repository
-* include or check the .gitignore file in your repo. At the least your data folder should be listed, since you want to make sure not to push any data to GitHub.
-* add the other team members as a collaborators
-* recommended but not necessary: work on your own branch.
-* create a new .ipynb file and start with your EDA!
-  - it's a good idea to split different steps into different notebooks. You can save intermediate results as `.csv`-files.
-  - when working seperately from team mates, use different files that can be combined later, or work carefully to avoid merge conflicts!
-* split tasks in your group, push results and merge into main if other person needs your results.
-* in the end: merge everything into the main branch
-* at the final step ("after the project"), the team members can fork the final state of the repo so to copy it into their own GitHub.  
+## 🧩 Task & Stakeholder
 
-<!--
-- Please create a new repository on GitHub and invite all team members to collaborate.
-  - Include a .gitignore file to your repo. At the least your data folder should be listed, since you want to make sure not to push any data to GitHub.
-- Start VS Code!
-- Either use your base environment or if you want to experiment with new packages:
-  - Create a new virtual environment, eg.:  
-```BASH 
-# Create new environment
-$ conda create --name <env_name> python=3.9
-# Activate environment 
-$ conda activate <env_name>
-# Installing packages 
-$ conda install <package_name>
-```
-  - Also after having created this environment, you can install additional packages within it. **Make sure you have activated your environment before installing new packages within it**!
-  - Work in branches and push your changes to the repository in order to keep your notebooks synchronised.
-  - Create a new .ipynb file and start with your EDA!
-  - It's a good idea to split different steps into different notebooks. Save intermediate results as `.csv`-files.
-  - When working seperately from teammates use different files that can be combined later, or work carefully to avoid merge conflicts!
--->
+We were tasked with performing a **case study** to answer specific business questions for our stakeholder. The detailed assignment is available in [**Assignment.md**](./Assignment.md).
 
-**Have fun and do not stress yourself too much!!!**
 
+---
+
+## 📈 Key Results & Insights
+
+### 📊 Performance Metrics (Total Time)
+
+| KPI | Total Time | Workdays |
+|-----|------------|----------|
+| **Logistics Performance** | ~4 days 14 hours | ~2 days 22 hours |
+| **Warehouse Performance** | ~6 days 2 hours | ~4 days 7 hours |
+| **Ready-to-Pickup Delay** | ~1 day 13 hours | ~1 day 8 hours |
+| **Overall Performance** | ~10 days 20 hours | ~7 days 9 hours |
+
+### 🔍 Key Findings
+
+- **Logistics partner reliability**  
+  → Transit times are consistent and meet expectations — a strong point.
+
+- **Pickup delays are acceptable**  
+  → Mostly due to truck scheduling; not a major concern.
+
+- **Main bottleneck: Warehouse processing**  
+  → This is the **primary area for improvement**. Focus efforts here first.
+
+---
+
+## 🧠 Learning Outcomes
+
+By completing this project, you’ll gain experience in:
+- Applying **EDA techniques** and **statistical analysis** to real-world business data
+- Building **data-driven insights** from raw datasets
+- Working in a **team environment** with Git best practices
+- Delivering **impactful results** under time constraints
+
+---
+
+## 📚 References
+
+- [EDA Checklist](./EDA_Checklist.pdf)  
+- [Assignment](./Assignment.md)  
+- [YouTube Trending Dataset](https://www.kaggle.com/datasnaek/youtube-new) *(for inspiration on EDA structure)*
+
+---
+
+## 📬 Contact
+
+**Student**: Patric Mertes
+**GitHub**: [@frive85](https://github.com/frive85)  
+**Email**:front05@gmx.de
+
+---
+
+> *Data doesn’t speak — but it can guide us. Let’s find the story behind the numbers.* 🧮📊
